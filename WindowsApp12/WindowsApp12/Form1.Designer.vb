@@ -22,10 +22,267 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.components = New System.ComponentModel.Container()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        Me.Español_BDDataSet = New WindowsApp12.Español_BDDataSet()
+        Me.Base_de_datos_españolBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Base_de_datos_españolTableAdapter = New WindowsApp12.Español_BDDataSetTableAdapters.base_de_datos_españolTableAdapter()
+        Me.TableAdapterManager = New WindowsApp12.Español_BDDataSetTableAdapters.TableAdapterManager()
+        Me.Base_de_datos_españolBindingNavigator = New System.Windows.Forms.BindingNavigator(Me.components)
+        Me.BindingNavigatorMoveFirstItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorMovePreviousItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorSeparator = New System.Windows.Forms.ToolStripSeparator()
+        Me.BindingNavigatorPositionItem = New System.Windows.Forms.ToolStripTextBox()
+        Me.BindingNavigatorCountItem = New System.Windows.Forms.ToolStripLabel()
+        Me.BindingNavigatorSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.BindingNavigatorMoveNextItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorMoveLastItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.BindingNavigatorAddNewItem = New System.Windows.Forms.ToolStripButton()
+        Me.BindingNavigatorDeleteItem = New System.Windows.Forms.ToolStripButton()
+        Me.Base_de_datos_españolBindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
+        Me.Base_de_datos_españolDataGridView = New System.Windows.Forms.DataGridView()
+        Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        CType(Me.Español_BDDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Base_de_datos_españolBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Base_de_datos_españolBindingNavigator, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Base_de_datos_españolBindingNavigator.SuspendLayout()
+        CType(Me.Base_de_datos_españolDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.SuspendLayout()
+        '
+        'Español_BDDataSet
+        '
+        Me.Español_BDDataSet.DataSetName = "Español_BDDataSet"
+        Me.Español_BDDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Base_de_datos_españolBindingSource
+        '
+        Me.Base_de_datos_españolBindingSource.DataMember = "base de datos español"
+        Me.Base_de_datos_españolBindingSource.DataSource = Me.Español_BDDataSet
+        '
+        'Base_de_datos_españolTableAdapter
+        '
+        Me.Base_de_datos_españolTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager
+        '
+        Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager.base_de_datos_españolTableAdapter = Me.Base_de_datos_españolTableAdapter
+        Me.TableAdapterManager.UpdateOrder = WindowsApp12.Español_BDDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        '
+        'Base_de_datos_españolBindingNavigator
+        '
+        Me.Base_de_datos_españolBindingNavigator.AddNewItem = Me.BindingNavigatorAddNewItem
+        Me.Base_de_datos_españolBindingNavigator.BindingSource = Me.Base_de_datos_españolBindingSource
+        Me.Base_de_datos_españolBindingNavigator.CountItem = Me.BindingNavigatorCountItem
+        Me.Base_de_datos_españolBindingNavigator.DeleteItem = Me.BindingNavigatorDeleteItem
+        Me.Base_de_datos_españolBindingNavigator.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BindingNavigatorMoveFirstItem, Me.BindingNavigatorMovePreviousItem, Me.BindingNavigatorSeparator, Me.BindingNavigatorPositionItem, Me.BindingNavigatorCountItem, Me.BindingNavigatorSeparator1, Me.BindingNavigatorMoveNextItem, Me.BindingNavigatorMoveLastItem, Me.BindingNavigatorSeparator2, Me.BindingNavigatorAddNewItem, Me.BindingNavigatorDeleteItem, Me.Base_de_datos_españolBindingNavigatorSaveItem})
+        Me.Base_de_datos_españolBindingNavigator.Location = New System.Drawing.Point(0, 0)
+        Me.Base_de_datos_españolBindingNavigator.MoveFirstItem = Me.BindingNavigatorMoveFirstItem
+        Me.Base_de_datos_españolBindingNavigator.MoveLastItem = Me.BindingNavigatorMoveLastItem
+        Me.Base_de_datos_españolBindingNavigator.MoveNextItem = Me.BindingNavigatorMoveNextItem
+        Me.Base_de_datos_españolBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
+        Me.Base_de_datos_españolBindingNavigator.Name = "Base_de_datos_españolBindingNavigator"
+        Me.Base_de_datos_españolBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
+        Me.Base_de_datos_españolBindingNavigator.Size = New System.Drawing.Size(800, 25)
+        Me.Base_de_datos_españolBindingNavigator.TabIndex = 0
+        Me.Base_de_datos_españolBindingNavigator.Text = "BindingNavigator1"
+        '
+        'BindingNavigatorMoveFirstItem
+        '
+        Me.BindingNavigatorMoveFirstItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BindingNavigatorMoveFirstItem.Image = CType(resources.GetObject("BindingNavigatorMoveFirstItem.Image"), System.Drawing.Image)
+        Me.BindingNavigatorMoveFirstItem.Name = "BindingNavigatorMoveFirstItem"
+        Me.BindingNavigatorMoveFirstItem.RightToLeftAutoMirrorImage = True
+        Me.BindingNavigatorMoveFirstItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorMoveFirstItem.Text = "Mover primero"
+        '
+        'BindingNavigatorMovePreviousItem
+        '
+        Me.BindingNavigatorMovePreviousItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BindingNavigatorMovePreviousItem.Image = CType(resources.GetObject("BindingNavigatorMovePreviousItem.Image"), System.Drawing.Image)
+        Me.BindingNavigatorMovePreviousItem.Name = "BindingNavigatorMovePreviousItem"
+        Me.BindingNavigatorMovePreviousItem.RightToLeftAutoMirrorImage = True
+        Me.BindingNavigatorMovePreviousItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorMovePreviousItem.Text = "Mover anterior"
+        '
+        'BindingNavigatorSeparator
+        '
+        Me.BindingNavigatorSeparator.Name = "BindingNavigatorSeparator"
+        Me.BindingNavigatorSeparator.Size = New System.Drawing.Size(6, 25)
+        '
+        'BindingNavigatorPositionItem
+        '
+        Me.BindingNavigatorPositionItem.AccessibleName = "Posición"
+        Me.BindingNavigatorPositionItem.AutoSize = False
+        Me.BindingNavigatorPositionItem.Name = "BindingNavigatorPositionItem"
+        Me.BindingNavigatorPositionItem.Size = New System.Drawing.Size(50, 23)
+        Me.BindingNavigatorPositionItem.Text = "0"
+        Me.BindingNavigatorPositionItem.ToolTipText = "Posición actual"
+        '
+        'BindingNavigatorCountItem
+        '
+        Me.BindingNavigatorCountItem.Name = "BindingNavigatorCountItem"
+        Me.BindingNavigatorCountItem.Size = New System.Drawing.Size(37, 15)
+        Me.BindingNavigatorCountItem.Text = "de {0}"
+        Me.BindingNavigatorCountItem.ToolTipText = "Número total de elementos"
+        '
+        'BindingNavigatorSeparator1
+        '
+        Me.BindingNavigatorSeparator1.Name = "BindingNavigatorSeparator"
+        Me.BindingNavigatorSeparator1.Size = New System.Drawing.Size(6, 6)
+        '
+        'BindingNavigatorMoveNextItem
+        '
+        Me.BindingNavigatorMoveNextItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BindingNavigatorMoveNextItem.Image = CType(resources.GetObject("BindingNavigatorMoveNextItem.Image"), System.Drawing.Image)
+        Me.BindingNavigatorMoveNextItem.Name = "BindingNavigatorMoveNextItem"
+        Me.BindingNavigatorMoveNextItem.RightToLeftAutoMirrorImage = True
+        Me.BindingNavigatorMoveNextItem.Size = New System.Drawing.Size(23, 20)
+        Me.BindingNavigatorMoveNextItem.Text = "Mover siguiente"
+        '
+        'BindingNavigatorMoveLastItem
+        '
+        Me.BindingNavigatorMoveLastItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BindingNavigatorMoveLastItem.Image = CType(resources.GetObject("BindingNavigatorMoveLastItem.Image"), System.Drawing.Image)
+        Me.BindingNavigatorMoveLastItem.Name = "BindingNavigatorMoveLastItem"
+        Me.BindingNavigatorMoveLastItem.RightToLeftAutoMirrorImage = True
+        Me.BindingNavigatorMoveLastItem.Size = New System.Drawing.Size(23, 20)
+        Me.BindingNavigatorMoveLastItem.Text = "Mover último"
+        '
+        'BindingNavigatorSeparator2
+        '
+        Me.BindingNavigatorSeparator2.Name = "BindingNavigatorSeparator"
+        Me.BindingNavigatorSeparator2.Size = New System.Drawing.Size(6, 6)
+        '
+        'BindingNavigatorAddNewItem
+        '
+        Me.BindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BindingNavigatorAddNewItem.Image = CType(resources.GetObject("BindingNavigatorAddNewItem.Image"), System.Drawing.Image)
+        Me.BindingNavigatorAddNewItem.Name = "BindingNavigatorAddNewItem"
+        Me.BindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = True
+        Me.BindingNavigatorAddNewItem.Size = New System.Drawing.Size(23, 22)
+        Me.BindingNavigatorAddNewItem.Text = "Agregar nuevo"
+        '
+        'BindingNavigatorDeleteItem
+        '
+        Me.BindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.BindingNavigatorDeleteItem.Image = CType(resources.GetObject("BindingNavigatorDeleteItem.Image"), System.Drawing.Image)
+        Me.BindingNavigatorDeleteItem.Name = "BindingNavigatorDeleteItem"
+        Me.BindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = True
+        Me.BindingNavigatorDeleteItem.Size = New System.Drawing.Size(23, 20)
+        Me.BindingNavigatorDeleteItem.Text = "Eliminar"
+        '
+        'Base_de_datos_españolBindingNavigatorSaveItem
+        '
+        Me.Base_de_datos_españolBindingNavigatorSaveItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image
+        Me.Base_de_datos_españolBindingNavigatorSaveItem.Image = CType(resources.GetObject("Base_de_datos_españolBindingNavigatorSaveItem.Image"), System.Drawing.Image)
+        Me.Base_de_datos_españolBindingNavigatorSaveItem.Name = "Base_de_datos_españolBindingNavigatorSaveItem"
+        Me.Base_de_datos_españolBindingNavigatorSaveItem.Size = New System.Drawing.Size(23, 23)
+        Me.Base_de_datos_españolBindingNavigatorSaveItem.Text = "Guardar datos"
+        '
+        'Base_de_datos_españolDataGridView
+        '
+        Me.Base_de_datos_españolDataGridView.AutoGenerateColumns = False
+        Me.Base_de_datos_españolDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.Base_de_datos_españolDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7})
+        Me.Base_de_datos_españolDataGridView.DataSource = Me.Base_de_datos_españolBindingSource
+        Me.Base_de_datos_españolDataGridView.Location = New System.Drawing.Point(271, 133)
+        Me.Base_de_datos_españolDataGridView.Name = "Base_de_datos_españolDataGridView"
+        Me.Base_de_datos_españolDataGridView.Size = New System.Drawing.Size(300, 220)
+        Me.Base_de_datos_españolDataGridView.TabIndex = 1
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.DataPropertyName = "Id"
+        Me.DataGridViewTextBoxColumn1.HeaderText = "Id"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        '
+        'DataGridViewTextBoxColumn2
+        '
+        Me.DataGridViewTextBoxColumn2.DataPropertyName = "NOMBRE DEL LIBRO"
+        Me.DataGridViewTextBoxColumn2.HeaderText = "NOMBRE DEL LIBRO"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        '
+        'DataGridViewTextBoxColumn3
+        '
+        Me.DataGridViewTextBoxColumn3.DataPropertyName = "Area"
+        Me.DataGridViewTextBoxColumn3.HeaderText = "Area"
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        Me.DataGridViewTextBoxColumn4.DataPropertyName = "Nº de pag"
+        Me.DataGridViewTextBoxColumn4.HeaderText = "Nº de pag"
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        '
+        'DataGridViewTextBoxColumn5
+        '
+        Me.DataGridViewTextBoxColumn5.DataPropertyName = "Codigo"
+        Me.DataGridViewTextBoxColumn5.HeaderText = "Codigo"
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        '
+        'DataGridViewTextBoxColumn6
+        '
+        Me.DataGridViewTextBoxColumn6.DataPropertyName = "Autor"
+        Me.DataGridViewTextBoxColumn6.HeaderText = "Autor"
+        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        '
+        'DataGridViewTextBoxColumn7
+        '
+        Me.DataGridViewTextBoxColumn7.DataPropertyName = "Estado"
+        Me.DataGridViewTextBoxColumn7.HeaderText = "Estado"
+        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        '
+        'Form1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Base_de_datos_españolDataGridView)
+        Me.Controls.Add(Me.Base_de_datos_españolBindingNavigator)
+        Me.Name = "Form1"
         Me.Text = "Form1"
+        CType(Me.Español_BDDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Base_de_datos_españolBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Base_de_datos_españolBindingNavigator, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Base_de_datos_españolBindingNavigator.ResumeLayout(False)
+        Me.Base_de_datos_españolBindingNavigator.PerformLayout()
+        CType(Me.Base_de_datos_españolDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ResumeLayout(False)
+        Me.PerformLayout()
+
     End Sub
 
+    Friend WithEvents Español_BDDataSet As Español_BDDataSet
+    Friend WithEvents Base_de_datos_españolBindingSource As BindingSource
+    Friend WithEvents Base_de_datos_españolTableAdapter As Español_BDDataSetTableAdapters.base_de_datos_españolTableAdapter
+    Friend WithEvents TableAdapterManager As Español_BDDataSetTableAdapters.TableAdapterManager
+    Friend WithEvents Base_de_datos_españolBindingNavigator As BindingNavigator
+    Friend WithEvents BindingNavigatorAddNewItem As ToolStripButton
+    Friend WithEvents BindingNavigatorCountItem As ToolStripLabel
+    Friend WithEvents BindingNavigatorDeleteItem As ToolStripButton
+    Friend WithEvents BindingNavigatorMoveFirstItem As ToolStripButton
+    Friend WithEvents BindingNavigatorMovePreviousItem As ToolStripButton
+    Friend WithEvents BindingNavigatorSeparator As ToolStripSeparator
+    Friend WithEvents BindingNavigatorPositionItem As ToolStripTextBox
+    Friend WithEvents BindingNavigatorSeparator1 As ToolStripSeparator
+    Friend WithEvents BindingNavigatorMoveNextItem As ToolStripButton
+    Friend WithEvents BindingNavigatorMoveLastItem As ToolStripButton
+    Friend WithEvents BindingNavigatorSeparator2 As ToolStripSeparator
+    Friend WithEvents Base_de_datos_españolBindingNavigatorSaveItem As ToolStripButton
+    Friend WithEvents Base_de_datos_españolDataGridView As DataGridView
+    Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn4 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn6 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
 End Class
