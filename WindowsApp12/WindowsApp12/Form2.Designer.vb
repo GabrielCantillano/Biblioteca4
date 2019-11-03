@@ -30,7 +30,6 @@ Partial Class Form2
         'PictureBox1
         '
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.PictureBox1.Image = Global.WindowsApp12.My.Resources.Resources.plantilla_inicio_sesion_brillo_1017_7459
         Me.PictureBox1.Location = New System.Drawing.Point(-73, -51)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(496, 397)
@@ -41,7 +40,7 @@ Partial Class Form2
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Transparent
-        Me.Button1.Location = New System.Drawing.Point(102, 199)
+        Me.Button1.Location = New System.Drawing.Point(98, 102)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(148, 31)
         Me.Button1.TabIndex = 2
