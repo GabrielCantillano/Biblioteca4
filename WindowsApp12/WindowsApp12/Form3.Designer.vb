@@ -65,6 +65,69 @@ Partial Class Form3
         CType(Me.AdministracionDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
+        'Id_administracionLabel
+        '
+        Id_administracionLabel.AutoSize = True
+        Id_administracionLabel.Location = New System.Drawing.Point(31, 45)
+        Id_administracionLabel.Name = "Id_administracionLabel"
+        Id_administracionLabel.Size = New System.Drawing.Size(89, 13)
+        Id_administracionLabel.TabIndex = 1
+        Id_administracionLabel.Text = "Id administracion:"
+        '
+        'Nombre_del_libroLabel
+        '
+        Nombre_del_libroLabel.AutoSize = True
+        Nombre_del_libroLabel.Location = New System.Drawing.Point(31, 71)
+        Nombre_del_libroLabel.Name = "Nombre_del_libroLabel"
+        Nombre_del_libroLabel.Size = New System.Drawing.Size(86, 13)
+        Nombre_del_libroLabel.TabIndex = 3
+        Nombre_del_libroLabel.Text = "Nombre del libro:"
+        '
+        'Numero_del_paginasLabel
+        '
+        Numero_del_paginasLabel.AutoSize = True
+        Numero_del_paginasLabel.Location = New System.Drawing.Point(31, 97)
+        Numero_del_paginasLabel.Name = "Numero_del_paginasLabel"
+        Numero_del_paginasLabel.Size = New System.Drawing.Size(104, 13)
+        Numero_del_paginasLabel.TabIndex = 5
+        Numero_del_paginasLabel.Text = "Numero del paginas:"
+        '
+        'AreaLabel
+        '
+        AreaLabel.AutoSize = True
+        AreaLabel.Location = New System.Drawing.Point(31, 123)
+        AreaLabel.Name = "AreaLabel"
+        AreaLabel.Size = New System.Drawing.Size(32, 13)
+        AreaLabel.TabIndex = 7
+        AreaLabel.Text = "Area:"
+        '
+        'EstadoLabel
+        '
+        EstadoLabel.AutoSize = True
+        EstadoLabel.Location = New System.Drawing.Point(31, 149)
+        EstadoLabel.Name = "EstadoLabel"
+        EstadoLabel.Size = New System.Drawing.Size(43, 13)
+        EstadoLabel.TabIndex = 9
+        EstadoLabel.Text = "Estado:"
+        '
+        'CodigtoLabel
+        '
+        CodigtoLabel.AutoSize = True
+        CodigtoLabel.Location = New System.Drawing.Point(31, 175)
+        CodigtoLabel.Name = "CodigtoLabel"
+        CodigtoLabel.Size = New System.Drawing.Size(46, 13)
+        CodigtoLabel.TabIndex = 11
+        CodigtoLabel.Text = "Codigto:"
+        '
+        'Autor_del_libroLabel
+        '
+        Autor_del_libroLabel.AutoSize = True
+        Autor_del_libroLabel.Location = New System.Drawing.Point(31, 201)
+        Autor_del_libroLabel.Name = "Autor_del_libroLabel"
+        Autor_del_libroLabel.Size = New System.Drawing.Size(74, 13)
+        Autor_del_libroLabel.TabIndex = 13
+        Autor_del_libroLabel.Text = "Autor del libro:"
+        '
         'Administracion_BDDataSet
         '
         Me.Administracion_BDDataSet.DataSetName = "Administracion_BDDataSet"
@@ -138,15 +201,6 @@ Partial Class Form3
         Me.DataGridViewTextBoxColumn7.HeaderText = "Autor del libro"
         Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
         '
-        'Id_administracionLabel
-        '
-        Id_administracionLabel.AutoSize = True
-        Id_administracionLabel.Location = New System.Drawing.Point(31, 45)
-        Id_administracionLabel.Name = "Id_administracionLabel"
-        Id_administracionLabel.Size = New System.Drawing.Size(89, 13)
-        Id_administracionLabel.TabIndex = 1
-        Id_administracionLabel.Text = "Id administracion:"
-        '
         'Id_administracionTextBox
         '
         Me.Id_administracionTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Id administracion", True))
@@ -154,15 +208,6 @@ Partial Class Form3
         Me.Id_administracionTextBox.Name = "Id_administracionTextBox"
         Me.Id_administracionTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Id_administracionTextBox.TabIndex = 2
-        '
-        'Nombre_del_libroLabel
-        '
-        Nombre_del_libroLabel.AutoSize = True
-        Nombre_del_libroLabel.Location = New System.Drawing.Point(31, 71)
-        Nombre_del_libroLabel.Name = "Nombre_del_libroLabel"
-        Nombre_del_libroLabel.Size = New System.Drawing.Size(86, 13)
-        Nombre_del_libroLabel.TabIndex = 3
-        Nombre_del_libroLabel.Text = "Nombre del libro:"
         '
         'Nombre_del_libroTextBox
         '
@@ -172,15 +217,6 @@ Partial Class Form3
         Me.Nombre_del_libroTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Nombre_del_libroTextBox.TabIndex = 4
         '
-        'Numero_del_paginasLabel
-        '
-        Numero_del_paginasLabel.AutoSize = True
-        Numero_del_paginasLabel.Location = New System.Drawing.Point(31, 97)
-        Numero_del_paginasLabel.Name = "Numero_del_paginasLabel"
-        Numero_del_paginasLabel.Size = New System.Drawing.Size(104, 13)
-        Numero_del_paginasLabel.TabIndex = 5
-        Numero_del_paginasLabel.Text = "Numero del paginas:"
-        '
         'Numero_del_paginasTextBox
         '
         Me.Numero_del_paginasTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Numero del paginas", True))
@@ -188,15 +224,6 @@ Partial Class Form3
         Me.Numero_del_paginasTextBox.Name = "Numero_del_paginasTextBox"
         Me.Numero_del_paginasTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Numero_del_paginasTextBox.TabIndex = 6
-        '
-        'AreaLabel
-        '
-        AreaLabel.AutoSize = True
-        AreaLabel.Location = New System.Drawing.Point(31, 123)
-        AreaLabel.Name = "AreaLabel"
-        AreaLabel.Size = New System.Drawing.Size(32, 13)
-        AreaLabel.TabIndex = 7
-        AreaLabel.Text = "Area:"
         '
         'AreaTextBox
         '
@@ -206,15 +233,6 @@ Partial Class Form3
         Me.AreaTextBox.Size = New System.Drawing.Size(100, 20)
         Me.AreaTextBox.TabIndex = 8
         '
-        'EstadoLabel
-        '
-        EstadoLabel.AutoSize = True
-        EstadoLabel.Location = New System.Drawing.Point(31, 149)
-        EstadoLabel.Name = "EstadoLabel"
-        EstadoLabel.Size = New System.Drawing.Size(43, 13)
-        EstadoLabel.TabIndex = 9
-        EstadoLabel.Text = "Estado:"
-        '
         'EstadoTextBox
         '
         Me.EstadoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Estado", True))
@@ -223,15 +241,6 @@ Partial Class Form3
         Me.EstadoTextBox.Size = New System.Drawing.Size(100, 20)
         Me.EstadoTextBox.TabIndex = 10
         '
-        'CodigtoLabel
-        '
-        CodigtoLabel.AutoSize = True
-        CodigtoLabel.Location = New System.Drawing.Point(31, 175)
-        CodigtoLabel.Name = "CodigtoLabel"
-        CodigtoLabel.Size = New System.Drawing.Size(46, 13)
-        CodigtoLabel.TabIndex = 11
-        CodigtoLabel.Text = "Codigto:"
-        '
         'CodigtoTextBox
         '
         Me.CodigtoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Codigto", True))
@@ -239,15 +248,6 @@ Partial Class Form3
         Me.CodigtoTextBox.Name = "CodigtoTextBox"
         Me.CodigtoTextBox.Size = New System.Drawing.Size(100, 20)
         Me.CodigtoTextBox.TabIndex = 12
-        '
-        'Autor_del_libroLabel
-        '
-        Autor_del_libroLabel.AutoSize = True
-        Autor_del_libroLabel.Location = New System.Drawing.Point(31, 201)
-        Autor_del_libroLabel.Name = "Autor_del_libroLabel"
-        Autor_del_libroLabel.Size = New System.Drawing.Size(74, 13)
-        Autor_del_libroLabel.TabIndex = 13
-        Autor_del_libroLabel.Text = "Autor del libro:"
         '
         'Autor_del_libroTextBox
         '
