@@ -63,6 +63,38 @@ Namespace My
                 Return CType(Me("Español_BDConnectionString"),String)
             End Get
         End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-SDOKEF0;Initial Catalog=Sociales_BD;Integrated Security=True")>  _
+        Public ReadOnly Property Sociales_BDConnectionString() As String
+            Get
+                Return CType(Me("Sociales_BDConnectionString"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-SDOKEF0;Initial Catalog=Pedagojia_BD;Integrated Security=True"& _ 
+            "")>  _
+        Public ReadOnly Property Pedagojia_BDConnectionString() As String
+            Get
+                Return CType(Me("Pedagojia_BDConnectionString"),String)
+            End Get
+        End Property
+        
+        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
+         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
+         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-SDOKEF0;Initial Catalog=Administracion_BD;Integrated Security"& _ 
+            "=True")>  _
+        Public ReadOnly Property Administracion_BDConnectionString() As String
+            Get
+                Return CType(Me("Administracion_BDConnectionString"),String)
+            End Get
+        End Property
     End Class
 End Namespace
 

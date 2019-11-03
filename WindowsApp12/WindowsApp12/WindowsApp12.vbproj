@@ -73,6 +73,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administracion_BDDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Administracion_BDDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Español_BDDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -83,6 +88,18 @@
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,6 +117,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Pedagojia_BDDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pedagojia_BDDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sociales_BDDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Sociales_BDDataSet.xsd</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -113,6 +140,17 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Administracion_BDDataSet.xsc">
+      <DependentUpon>Administracion_BDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Administracion_BDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Administracion_BDDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Administracion_BDDataSet.xss">
+      <DependentUpon>Administracion_BDDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Español_BDDataSet.xsc">
       <DependentUpon>Español_BDDataSet.xsd</DependentUpon>
     </None>
@@ -134,6 +172,28 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="Pedagojia_BDDataSet.xsc">
+      <DependentUpon>Pedagojia_BDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Pedagojia_BDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pedagojia_BDDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Pedagojia_BDDataSet.xss">
+      <DependentUpon>Pedagojia_BDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Sociales_BDDataSet.xsc">
+      <DependentUpon>Sociales_BDDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Sociales_BDDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Sociales_BDDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Sociales_BDDataSet.xss">
+      <DependentUpon>Sociales_BDDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
