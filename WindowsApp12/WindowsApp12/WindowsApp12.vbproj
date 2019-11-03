@@ -132,6 +132,9 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -194,6 +197,15 @@
     <None Include="Sociales_BDDataSet.xss">
       <DependentUpon>Sociales_BDDataSet.xsd</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantilla-inicio-sesion-brillo_1017-7459.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantilla-inicio-sesion-brillo_1017-74591.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plantilla-formulario-inicio-sesion-usuario-transparente_6735-284.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
