@@ -23,18 +23,26 @@ Partial Class Form3
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Dim Id_administracionLabel As System.Windows.Forms.Label
-        Dim Nombre_del_libroLabel As System.Windows.Forms.Label
-        Dim Numero_del_paginasLabel As System.Windows.Forms.Label
+        Dim IdLabel As System.Windows.Forms.Label
+        Dim NOMBRE_DEL_LIBROLabel As System.Windows.Forms.Label
         Dim AreaLabel As System.Windows.Forms.Label
+        Dim Nº_de_pagLabel As System.Windows.Forms.Label
+        Dim CodigoLabel As System.Windows.Forms.Label
+        Dim AutorLabel As System.Windows.Forms.Label
         Dim EstadoLabel As System.Windows.Forms.Label
-        Dim CodigtoLabel As System.Windows.Forms.Label
-        Dim Autor_del_libroLabel As System.Windows.Forms.Label
         Me.Administracion_BDDataSet = New WindowsApp12.Administracion_BDDataSet()
         Me.AdministracionBindingSource = New System.Windows.Forms.BindingSource(Me.components)
         Me.AdministracionTableAdapter = New WindowsApp12.Administracion_BDDataSetTableAdapters.AdministracionTableAdapter()
         Me.TableAdapterManager = New WindowsApp12.Administracion_BDDataSetTableAdapters.TableAdapterManager()
-        Me.AdministracionDataGridView = New System.Windows.Forms.DataGridView()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Español_BDDataSet = New WindowsApp12.Español_BDDataSet()
+        Me.Base_de_datos_españolBindingSource = New System.Windows.Forms.BindingSource(Me.components)
+        Me.Base_de_datos_españolTableAdapter = New WindowsApp12.Español_BDDataSetTableAdapters.base_de_datos_españolTableAdapter()
+        Me.TableAdapterManager1 = New WindowsApp12.Español_BDDataSetTableAdapters.TableAdapterManager()
+        Me.Base_de_datos_españolDataGridView = New System.Windows.Forms.DataGridView()
         Me.DataGridViewTextBoxColumn1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -42,91 +50,26 @@ Partial Class Form3
         Me.DataGridViewTextBoxColumn5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn6 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DataGridViewTextBoxColumn7 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Id_administracionTextBox = New System.Windows.Forms.TextBox()
-        Me.Nombre_del_libroTextBox = New System.Windows.Forms.TextBox()
-        Me.Numero_del_paginasTextBox = New System.Windows.Forms.TextBox()
+        Me.IdTextBox = New System.Windows.Forms.TextBox()
+        Me.NOMBRE_DEL_LIBROTextBox = New System.Windows.Forms.TextBox()
         Me.AreaTextBox = New System.Windows.Forms.TextBox()
+        Me.Nº_de_pagTextBox = New System.Windows.Forms.TextBox()
+        Me.CodigoTextBox = New System.Windows.Forms.TextBox()
+        Me.AutorTextBox = New System.Windows.Forms.TextBox()
         Me.EstadoTextBox = New System.Windows.Forms.TextBox()
-        Me.CodigtoTextBox = New System.Windows.Forms.TextBox()
-        Me.Autor_del_libroTextBox = New System.Windows.Forms.TextBox()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Id_administracionLabel = New System.Windows.Forms.Label()
-        Nombre_del_libroLabel = New System.Windows.Forms.Label()
-        Numero_del_paginasLabel = New System.Windows.Forms.Label()
+        IdLabel = New System.Windows.Forms.Label()
+        NOMBRE_DEL_LIBROLabel = New System.Windows.Forms.Label()
         AreaLabel = New System.Windows.Forms.Label()
+        Nº_de_pagLabel = New System.Windows.Forms.Label()
+        CodigoLabel = New System.Windows.Forms.Label()
+        AutorLabel = New System.Windows.Forms.Label()
         EstadoLabel = New System.Windows.Forms.Label()
-        CodigtoLabel = New System.Windows.Forms.Label()
-        Autor_del_libroLabel = New System.Windows.Forms.Label()
         CType(Me.Administracion_BDDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AdministracionBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.AdministracionDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Español_BDDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Base_de_datos_españolBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.Base_de_datos_españolDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Id_administracionLabel
-        '
-        Id_administracionLabel.AutoSize = True
-        Id_administracionLabel.Location = New System.Drawing.Point(31, 45)
-        Id_administracionLabel.Name = "Id_administracionLabel"
-        Id_administracionLabel.Size = New System.Drawing.Size(89, 13)
-        Id_administracionLabel.TabIndex = 1
-        Id_administracionLabel.Text = "Id administracion:"
-        '
-        'Nombre_del_libroLabel
-        '
-        Nombre_del_libroLabel.AutoSize = True
-        Nombre_del_libroLabel.Location = New System.Drawing.Point(31, 71)
-        Nombre_del_libroLabel.Name = "Nombre_del_libroLabel"
-        Nombre_del_libroLabel.Size = New System.Drawing.Size(86, 13)
-        Nombre_del_libroLabel.TabIndex = 3
-        Nombre_del_libroLabel.Text = "Nombre del libro:"
-        '
-        'Numero_del_paginasLabel
-        '
-        Numero_del_paginasLabel.AutoSize = True
-        Numero_del_paginasLabel.Location = New System.Drawing.Point(31, 97)
-        Numero_del_paginasLabel.Name = "Numero_del_paginasLabel"
-        Numero_del_paginasLabel.Size = New System.Drawing.Size(104, 13)
-        Numero_del_paginasLabel.TabIndex = 5
-        Numero_del_paginasLabel.Text = "Numero del paginas:"
-        '
-        'AreaLabel
-        '
-        AreaLabel.AutoSize = True
-        AreaLabel.Location = New System.Drawing.Point(31, 123)
-        AreaLabel.Name = "AreaLabel"
-        AreaLabel.Size = New System.Drawing.Size(32, 13)
-        AreaLabel.TabIndex = 7
-        AreaLabel.Text = "Area:"
-        '
-        'EstadoLabel
-        '
-        EstadoLabel.AutoSize = True
-        EstadoLabel.Location = New System.Drawing.Point(31, 149)
-        EstadoLabel.Name = "EstadoLabel"
-        EstadoLabel.Size = New System.Drawing.Size(43, 13)
-        EstadoLabel.TabIndex = 9
-        EstadoLabel.Text = "Estado:"
-        '
-        'CodigtoLabel
-        '
-        CodigtoLabel.AutoSize = True
-        CodigtoLabel.Location = New System.Drawing.Point(31, 175)
-        CodigtoLabel.Name = "CodigtoLabel"
-        CodigtoLabel.Size = New System.Drawing.Size(46, 13)
-        CodigtoLabel.TabIndex = 11
-        CodigtoLabel.Text = "Codigto:"
-        '
-        'Autor_del_libroLabel
-        '
-        Autor_del_libroLabel.AutoSize = True
-        Autor_del_libroLabel.Location = New System.Drawing.Point(31, 201)
-        Autor_del_libroLabel.Name = "Autor_del_libroLabel"
-        Autor_del_libroLabel.Size = New System.Drawing.Size(74, 13)
-        Autor_del_libroLabel.TabIndex = 13
-        Autor_del_libroLabel.Text = "Autor del libro:"
         '
         'Administracion_BDDataSet
         '
@@ -147,115 +90,6 @@ Partial Class Form3
         Me.TableAdapterManager.AdministracionTableAdapter = Me.AdministracionTableAdapter
         Me.TableAdapterManager.BackupDataSetBeforeUpdate = False
         Me.TableAdapterManager.UpdateOrder = WindowsApp12.Administracion_BDDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
-        '
-        'AdministracionDataGridView
-        '
-        Me.AdministracionDataGridView.AutoGenerateColumns = False
-        Me.AdministracionDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.AdministracionDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7})
-        Me.AdministracionDataGridView.DataSource = Me.AdministracionBindingSource
-        Me.AdministracionDataGridView.Location = New System.Drawing.Point(322, 23)
-        Me.AdministracionDataGridView.Name = "AdministracionDataGridView"
-        Me.AdministracionDataGridView.Size = New System.Drawing.Size(743, 319)
-        Me.AdministracionDataGridView.TabIndex = 1
-        '
-        'DataGridViewTextBoxColumn1
-        '
-        Me.DataGridViewTextBoxColumn1.DataPropertyName = "Id administracion"
-        Me.DataGridViewTextBoxColumn1.HeaderText = "Id administracion"
-        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
-        '
-        'DataGridViewTextBoxColumn2
-        '
-        Me.DataGridViewTextBoxColumn2.DataPropertyName = "Nombre del libro"
-        Me.DataGridViewTextBoxColumn2.HeaderText = "Nombre del libro"
-        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
-        '
-        'DataGridViewTextBoxColumn3
-        '
-        Me.DataGridViewTextBoxColumn3.DataPropertyName = "Numero del paginas"
-        Me.DataGridViewTextBoxColumn3.HeaderText = "Numero del paginas"
-        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
-        '
-        'DataGridViewTextBoxColumn4
-        '
-        Me.DataGridViewTextBoxColumn4.DataPropertyName = "Area"
-        Me.DataGridViewTextBoxColumn4.HeaderText = "Area"
-        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
-        '
-        'DataGridViewTextBoxColumn5
-        '
-        Me.DataGridViewTextBoxColumn5.DataPropertyName = "Estado"
-        Me.DataGridViewTextBoxColumn5.HeaderText = "Estado"
-        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
-        '
-        'DataGridViewTextBoxColumn6
-        '
-        Me.DataGridViewTextBoxColumn6.DataPropertyName = "Codigto"
-        Me.DataGridViewTextBoxColumn6.HeaderText = "Codigto"
-        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
-        '
-        'DataGridViewTextBoxColumn7
-        '
-        Me.DataGridViewTextBoxColumn7.DataPropertyName = "Autor del libro"
-        Me.DataGridViewTextBoxColumn7.HeaderText = "Autor del libro"
-        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
-        '
-        'Id_administracionTextBox
-        '
-        Me.Id_administracionTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Id administracion", True))
-        Me.Id_administracionTextBox.Location = New System.Drawing.Point(141, 42)
-        Me.Id_administracionTextBox.Name = "Id_administracionTextBox"
-        Me.Id_administracionTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Id_administracionTextBox.TabIndex = 2
-        '
-        'Nombre_del_libroTextBox
-        '
-        Me.Nombre_del_libroTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Nombre del libro", True))
-        Me.Nombre_del_libroTextBox.Location = New System.Drawing.Point(141, 68)
-        Me.Nombre_del_libroTextBox.Name = "Nombre_del_libroTextBox"
-        Me.Nombre_del_libroTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Nombre_del_libroTextBox.TabIndex = 4
-        '
-        'Numero_del_paginasTextBox
-        '
-        Me.Numero_del_paginasTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Numero del paginas", True))
-        Me.Numero_del_paginasTextBox.Location = New System.Drawing.Point(141, 94)
-        Me.Numero_del_paginasTextBox.Name = "Numero_del_paginasTextBox"
-        Me.Numero_del_paginasTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Numero_del_paginasTextBox.TabIndex = 6
-        '
-        'AreaTextBox
-        '
-        Me.AreaTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Area", True))
-        Me.AreaTextBox.Location = New System.Drawing.Point(141, 120)
-        Me.AreaTextBox.Name = "AreaTextBox"
-        Me.AreaTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.AreaTextBox.TabIndex = 8
-        '
-        'EstadoTextBox
-        '
-        Me.EstadoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Estado", True))
-        Me.EstadoTextBox.Location = New System.Drawing.Point(141, 146)
-        Me.EstadoTextBox.Name = "EstadoTextBox"
-        Me.EstadoTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.EstadoTextBox.TabIndex = 10
-        '
-        'CodigtoTextBox
-        '
-        Me.CodigtoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Codigto", True))
-        Me.CodigtoTextBox.Location = New System.Drawing.Point(141, 172)
-        Me.CodigtoTextBox.Name = "CodigtoTextBox"
-        Me.CodigtoTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.CodigtoTextBox.TabIndex = 12
-        '
-        'Autor_del_libroTextBox
-        '
-        Me.Autor_del_libroTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.AdministracionBindingSource, "Autor del libro", True))
-        Me.Autor_del_libroTextBox.Location = New System.Drawing.Point(141, 198)
-        Me.Autor_del_libroTextBox.Name = "Autor_del_libroTextBox"
-        Me.Autor_del_libroTextBox.Size = New System.Drawing.Size(100, 20)
-        Me.Autor_del_libroTextBox.TabIndex = 14
         '
         'Button1
         '
@@ -293,37 +127,231 @@ Partial Class Form3
         Me.Button4.Text = "Buscar"
         Me.Button4.UseVisualStyleBackColor = True
         '
+        'Español_BDDataSet
+        '
+        Me.Español_BDDataSet.DataSetName = "Español_BDDataSet"
+        Me.Español_BDDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
+        '
+        'Base_de_datos_españolBindingSource
+        '
+        Me.Base_de_datos_españolBindingSource.DataMember = "base de datos español"
+        Me.Base_de_datos_españolBindingSource.DataSource = Me.Español_BDDataSet
+        '
+        'Base_de_datos_españolTableAdapter
+        '
+        Me.Base_de_datos_españolTableAdapter.ClearBeforeFill = True
+        '
+        'TableAdapterManager1
+        '
+        Me.TableAdapterManager1.BackupDataSetBeforeUpdate = False
+        Me.TableAdapterManager1.base_de_datos_españolTableAdapter = Me.Base_de_datos_españolTableAdapter
+        Me.TableAdapterManager1.UpdateOrder = WindowsApp12.Español_BDDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete
+        '
+        'Base_de_datos_españolDataGridView
+        '
+        Me.Base_de_datos_españolDataGridView.AutoGenerateColumns = False
+        Me.Base_de_datos_españolDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.Base_de_datos_españolDataGridView.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.DataGridViewTextBoxColumn1, Me.DataGridViewTextBoxColumn2, Me.DataGridViewTextBoxColumn3, Me.DataGridViewTextBoxColumn4, Me.DataGridViewTextBoxColumn5, Me.DataGridViewTextBoxColumn6, Me.DataGridViewTextBoxColumn7})
+        Me.Base_de_datos_españolDataGridView.DataSource = Me.Base_de_datos_españolBindingSource
+        Me.Base_de_datos_españolDataGridView.Location = New System.Drawing.Point(290, 28)
+        Me.Base_de_datos_españolDataGridView.Name = "Base_de_datos_españolDataGridView"
+        Me.Base_de_datos_españolDataGridView.Size = New System.Drawing.Size(742, 220)
+        Me.Base_de_datos_españolDataGridView.TabIndex = 18
+        '
+        'DataGridViewTextBoxColumn1
+        '
+        Me.DataGridViewTextBoxColumn1.DataPropertyName = "Id"
+        Me.DataGridViewTextBoxColumn1.HeaderText = "Id"
+        Me.DataGridViewTextBoxColumn1.Name = "DataGridViewTextBoxColumn1"
+        '
+        'DataGridViewTextBoxColumn2
+        '
+        Me.DataGridViewTextBoxColumn2.DataPropertyName = "NOMBRE DEL LIBRO"
+        Me.DataGridViewTextBoxColumn2.HeaderText = "NOMBRE DEL LIBRO"
+        Me.DataGridViewTextBoxColumn2.Name = "DataGridViewTextBoxColumn2"
+        '
+        'DataGridViewTextBoxColumn3
+        '
+        Me.DataGridViewTextBoxColumn3.DataPropertyName = "Area"
+        Me.DataGridViewTextBoxColumn3.HeaderText = "Area"
+        Me.DataGridViewTextBoxColumn3.Name = "DataGridViewTextBoxColumn3"
+        '
+        'DataGridViewTextBoxColumn4
+        '
+        Me.DataGridViewTextBoxColumn4.DataPropertyName = "Nº de pag"
+        Me.DataGridViewTextBoxColumn4.HeaderText = "Nº de pag"
+        Me.DataGridViewTextBoxColumn4.Name = "DataGridViewTextBoxColumn4"
+        '
+        'DataGridViewTextBoxColumn5
+        '
+        Me.DataGridViewTextBoxColumn5.DataPropertyName = "Codigo"
+        Me.DataGridViewTextBoxColumn5.HeaderText = "Codigo"
+        Me.DataGridViewTextBoxColumn5.Name = "DataGridViewTextBoxColumn5"
+        '
+        'DataGridViewTextBoxColumn6
+        '
+        Me.DataGridViewTextBoxColumn6.DataPropertyName = "Autor"
+        Me.DataGridViewTextBoxColumn6.HeaderText = "Autor"
+        Me.DataGridViewTextBoxColumn6.Name = "DataGridViewTextBoxColumn6"
+        '
+        'DataGridViewTextBoxColumn7
+        '
+        Me.DataGridViewTextBoxColumn7.DataPropertyName = "Estado"
+        Me.DataGridViewTextBoxColumn7.HeaderText = "Estado"
+        Me.DataGridViewTextBoxColumn7.Name = "DataGridViewTextBoxColumn7"
+        '
+        'IdLabel
+        '
+        IdLabel.AutoSize = True
+        IdLabel.Location = New System.Drawing.Point(31, 52)
+        IdLabel.Name = "IdLabel"
+        IdLabel.Size = New System.Drawing.Size(19, 13)
+        IdLabel.TabIndex = 18
+        IdLabel.Text = "Id:"
+        '
+        'IdTextBox
+        '
+        Me.IdTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Base_de_datos_españolBindingSource, "Id", True))
+        Me.IdTextBox.Location = New System.Drawing.Point(153, 49)
+        Me.IdTextBox.Name = "IdTextBox"
+        Me.IdTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.IdTextBox.TabIndex = 19
+        '
+        'NOMBRE_DEL_LIBROLabel
+        '
+        NOMBRE_DEL_LIBROLabel.AutoSize = True
+        NOMBRE_DEL_LIBROLabel.Location = New System.Drawing.Point(31, 78)
+        NOMBRE_DEL_LIBROLabel.Name = "NOMBRE_DEL_LIBROLabel"
+        NOMBRE_DEL_LIBROLabel.Size = New System.Drawing.Size(116, 13)
+        NOMBRE_DEL_LIBROLabel.TabIndex = 20
+        NOMBRE_DEL_LIBROLabel.Text = "NOMBRE DEL LIBRO:"
+        '
+        'NOMBRE_DEL_LIBROTextBox
+        '
+        Me.NOMBRE_DEL_LIBROTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Base_de_datos_españolBindingSource, "NOMBRE DEL LIBRO", True))
+        Me.NOMBRE_DEL_LIBROTextBox.Location = New System.Drawing.Point(153, 75)
+        Me.NOMBRE_DEL_LIBROTextBox.Name = "NOMBRE_DEL_LIBROTextBox"
+        Me.NOMBRE_DEL_LIBROTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.NOMBRE_DEL_LIBROTextBox.TabIndex = 21
+        '
+        'AreaLabel
+        '
+        AreaLabel.AutoSize = True
+        AreaLabel.Location = New System.Drawing.Point(31, 104)
+        AreaLabel.Name = "AreaLabel"
+        AreaLabel.Size = New System.Drawing.Size(32, 13)
+        AreaLabel.TabIndex = 22
+        AreaLabel.Text = "Area:"
+        '
+        'AreaTextBox
+        '
+        Me.AreaTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Base_de_datos_españolBindingSource, "Area", True))
+        Me.AreaTextBox.Location = New System.Drawing.Point(153, 101)
+        Me.AreaTextBox.Name = "AreaTextBox"
+        Me.AreaTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.AreaTextBox.TabIndex = 23
+        '
+        'Nº_de_pagLabel
+        '
+        Nº_de_pagLabel.AutoSize = True
+        Nº_de_pagLabel.Location = New System.Drawing.Point(31, 130)
+        Nº_de_pagLabel.Name = "Nº_de_pagLabel"
+        Nº_de_pagLabel.Size = New System.Drawing.Size(58, 13)
+        Nº_de_pagLabel.TabIndex = 24
+        Nº_de_pagLabel.Text = "Nº de pag:"
+        '
+        'Nº_de_pagTextBox
+        '
+        Me.Nº_de_pagTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Base_de_datos_españolBindingSource, "Nº de pag", True))
+        Me.Nº_de_pagTextBox.Location = New System.Drawing.Point(153, 127)
+        Me.Nº_de_pagTextBox.Name = "Nº_de_pagTextBox"
+        Me.Nº_de_pagTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.Nº_de_pagTextBox.TabIndex = 25
+        '
+        'CodigoLabel
+        '
+        CodigoLabel.AutoSize = True
+        CodigoLabel.Location = New System.Drawing.Point(31, 156)
+        CodigoLabel.Name = "CodigoLabel"
+        CodigoLabel.Size = New System.Drawing.Size(43, 13)
+        CodigoLabel.TabIndex = 26
+        CodigoLabel.Text = "Codigo:"
+        '
+        'CodigoTextBox
+        '
+        Me.CodigoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Base_de_datos_españolBindingSource, "Codigo", True))
+        Me.CodigoTextBox.Location = New System.Drawing.Point(153, 153)
+        Me.CodigoTextBox.Name = "CodigoTextBox"
+        Me.CodigoTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.CodigoTextBox.TabIndex = 27
+        '
+        'AutorLabel
+        '
+        AutorLabel.AutoSize = True
+        AutorLabel.Location = New System.Drawing.Point(31, 182)
+        AutorLabel.Name = "AutorLabel"
+        AutorLabel.Size = New System.Drawing.Size(35, 13)
+        AutorLabel.TabIndex = 28
+        AutorLabel.Text = "Autor:"
+        '
+        'AutorTextBox
+        '
+        Me.AutorTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Base_de_datos_españolBindingSource, "Autor", True))
+        Me.AutorTextBox.Location = New System.Drawing.Point(153, 179)
+        Me.AutorTextBox.Name = "AutorTextBox"
+        Me.AutorTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.AutorTextBox.TabIndex = 29
+        '
+        'EstadoLabel
+        '
+        EstadoLabel.AutoSize = True
+        EstadoLabel.Location = New System.Drawing.Point(31, 208)
+        EstadoLabel.Name = "EstadoLabel"
+        EstadoLabel.Size = New System.Drawing.Size(43, 13)
+        EstadoLabel.TabIndex = 30
+        EstadoLabel.Text = "Estado:"
+        '
+        'EstadoTextBox
+        '
+        Me.EstadoTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Base_de_datos_españolBindingSource, "Estado", True))
+        Me.EstadoTextBox.Location = New System.Drawing.Point(153, 205)
+        Me.EstadoTextBox.Name = "EstadoTextBox"
+        Me.EstadoTextBox.Size = New System.Drawing.Size(100, 20)
+        Me.EstadoTextBox.TabIndex = 31
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1370, 749)
+        Me.Controls.Add(IdLabel)
+        Me.Controls.Add(Me.IdTextBox)
+        Me.Controls.Add(NOMBRE_DEL_LIBROLabel)
+        Me.Controls.Add(Me.NOMBRE_DEL_LIBROTextBox)
+        Me.Controls.Add(AreaLabel)
+        Me.Controls.Add(Me.AreaTextBox)
+        Me.Controls.Add(Nº_de_pagLabel)
+        Me.Controls.Add(Me.Nº_de_pagTextBox)
+        Me.Controls.Add(CodigoLabel)
+        Me.Controls.Add(Me.CodigoTextBox)
+        Me.Controls.Add(AutorLabel)
+        Me.Controls.Add(Me.AutorTextBox)
+        Me.Controls.Add(EstadoLabel)
+        Me.Controls.Add(Me.EstadoTextBox)
+        Me.Controls.Add(Me.Base_de_datos_españolDataGridView)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Id_administracionLabel)
-        Me.Controls.Add(Me.Id_administracionTextBox)
-        Me.Controls.Add(Nombre_del_libroLabel)
-        Me.Controls.Add(Me.Nombre_del_libroTextBox)
-        Me.Controls.Add(Numero_del_paginasLabel)
-        Me.Controls.Add(Me.Numero_del_paginasTextBox)
-        Me.Controls.Add(AreaLabel)
-        Me.Controls.Add(Me.AreaTextBox)
-        Me.Controls.Add(EstadoLabel)
-        Me.Controls.Add(Me.EstadoTextBox)
-        Me.Controls.Add(CodigtoLabel)
-        Me.Controls.Add(Me.CodigtoTextBox)
-        Me.Controls.Add(Autor_del_libroLabel)
-        Me.Controls.Add(Me.Autor_del_libroTextBox)
-        Me.Controls.Add(Me.AdministracionDataGridView)
         Me.Name = "Form3"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form3"
         Me.WindowState = System.Windows.Forms.FormWindowState.Maximized
         CType(Me.Administracion_BDDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.AdministracionBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.AdministracionDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Español_BDDataSet, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Base_de_datos_españolBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Base_de_datos_españolDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -333,7 +361,15 @@ Partial Class Form3
     Friend WithEvents AdministracionBindingSource As BindingSource
     Friend WithEvents AdministracionTableAdapter As Administracion_BDDataSetTableAdapters.AdministracionTableAdapter
     Friend WithEvents TableAdapterManager As Administracion_BDDataSetTableAdapters.TableAdapterManager
-    Friend WithEvents AdministracionDataGridView As DataGridView
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Button3 As Button
+    Friend WithEvents Button4 As Button
+    Friend WithEvents Español_BDDataSet As Español_BDDataSet
+    Friend WithEvents Base_de_datos_españolBindingSource As BindingSource
+    Friend WithEvents Base_de_datos_españolTableAdapter As Español_BDDataSetTableAdapters.base_de_datos_españolTableAdapter
+    Friend WithEvents TableAdapterManager1 As Español_BDDataSetTableAdapters.TableAdapterManager
+    Friend WithEvents Base_de_datos_españolDataGridView As DataGridView
     Friend WithEvents DataGridViewTextBoxColumn1 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn2 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn3 As DataGridViewTextBoxColumn
@@ -341,15 +377,11 @@ Partial Class Form3
     Friend WithEvents DataGridViewTextBoxColumn5 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn6 As DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn7 As DataGridViewTextBoxColumn
-    Friend WithEvents Id_administracionTextBox As TextBox
-    Friend WithEvents Nombre_del_libroTextBox As TextBox
-    Friend WithEvents Numero_del_paginasTextBox As TextBox
+    Friend WithEvents IdTextBox As TextBox
+    Friend WithEvents NOMBRE_DEL_LIBROTextBox As TextBox
     Friend WithEvents AreaTextBox As TextBox
+    Friend WithEvents Nº_de_pagTextBox As TextBox
+    Friend WithEvents CodigoTextBox As TextBox
+    Friend WithEvents AutorTextBox As TextBox
     Friend WithEvents EstadoTextBox As TextBox
-    Friend WithEvents CodigtoTextBox As TextBox
-    Friend WithEvents Autor_del_libroTextBox As TextBox
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
 End Class
