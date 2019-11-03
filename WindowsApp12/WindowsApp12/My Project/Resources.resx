@@ -118,13 +118,175 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="plantilla-inicio-sesion-brillo_1017-7459" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plantilla-inicio-sesion-brillo_1017-7459.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="123-1238448_short-discussions-with-parenting-and-child-development-icono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\123-1238448_short-discussions-with-parenting-and-child-development-icono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plantilla-inicio-sesion-brillo_1017-74591" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plantilla-inicio-sesion-brillo_1017-74591.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="fondo-celeste-oscuro-6269" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo-celeste-oscuro-6269.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="plantilla-formulario-inicio-sesion-usuario-transparente_6735-284" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\plantilla-formulario-inicio-sesion-usuario-transparente_6735-284.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="510b0daee67fbc091f14b9d8ef40aeb6c0d4dc7d_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\510b0daee67fbc091f14b9d8ef40aeb6c0d4dc7d_00.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3A0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3A0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addressbook_addressbook_add_librodedireccion_2815" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook_addressbook_add_librodedireccion_2815.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addressbook_addressbook_delete_librodedireccion_2816" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook_addressbook_delete_librodedireccion_2816.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addressbook_addressbook_edition_librodedireccion_2817" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook_addressbook_edition_librodedireccion_2817.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addressbook_addressbook_search_librodedireccion_2818" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook_addressbook_search_librodedireccion_2818.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_book_icon_icons_com_71795" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-book_icon-icons.com_71795.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_new_document_icon_icons_com_54068" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-new-document_icon-icons.com_54068.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add_new_page_icon_icons_com_71788" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add-new-page_icon-icons.com_71788.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="award_sportive_recognition_symbol_of_a_badge_with_a_star_and_ribbon_tails_icon_icons_com_57941" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\award-sportive-recognition-symbol-of-a-badge-with-a-star-and-ribbon-tails_icon-icons.com_57941.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="azul_difuminado_29047_1920x1080__wallpaper_480x300" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\azul-difuminado-29047-1920x1080__wallpaper_480x300.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra_abstracta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra abstracta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barra_gg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barra gg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bloques_coloridos_vector_fondo_blanco_blanco_53876_67037" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bloques-coloridos-vector-fondo-blanco-blanco_53876-67037.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookshelf_icon_icons_com_54414" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookshelf_icon-icons.com_54414.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="books_3025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\books_3025.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Books_Free_PNG_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Books-Free-PNG-Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_bookmark_icon_34486" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book-bookmark-icon_34486.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_circle_add_icon_icons_com_52240" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-circle-add_icon-icons.com_52240.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="color_degradado_fondos_degradados_multicolor_51200" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\color-degradado-fondos-degradados-multicolor-51200.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="descarga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descarga.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="difuminado_white_wallpaper__16__682241_800" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\difuminado white wallpaper (16)-682241_800.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FondosPantalla10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FondosPantalla10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondo_animado_devianart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondo-animado-devianart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iphone5s_744x1392_wallpaper_03207" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iphone5s-744x1392-wallpaper_03207.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iphone5s_744x1392_wallpaper_032071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iphone5s-744x1392-wallpaper_03207.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng_clip_art_portable_network_graphics_social_studies_5cef02a624c540_7643176015591676541506" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-clip-art-portable-network-graphics-social-studies-5cef02a624c540.7643176015591676541506.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Laboratory_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Laboratory-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Landing_taller_blog_1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Landing-taller-blog-1024x1024.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mejores_libros_de_paulo_coelho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mejores-libros-de-paulo-coelho.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menu_icon_icon_icons_com_71858" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu_icon_icon-icons.com_71858.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plantilla_inicio_sesion_fondo_gris_1017_7464" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plantilla-inicio-sesion-fondo-gris_1017-7464.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="plantilla_inicio_sesion_tonos_azules_1017_7460" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\plantilla-inicio-sesion-tonos-azules_1017-7460.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pornfolder_porn_4164" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pornfolder_porn_4164.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rrfrfrf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rrfrfrf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="taller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taller.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="talleres2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\talleres2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TALLERES_EDUCATIVOS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TALLERES EDUCATIVOS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tubo_icono_e1518662126363" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tubo-icono-e1518662126363.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitledee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitledee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitledeeollll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitledeeollll.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitledrr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitledrr.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_icon_icons_com_57997" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_icon-icons.com_57997.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1486564400_account_81513" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1486564400-account_81513.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1SS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1SS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3643769_building_home_house_main_menu_start_113416" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3643769-building-home-house-main-menu-start_113416.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3643772_archive_archives_document_folder_open_113445" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3643772-archive-archives-document-folder-open_113445.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4552616_glass_loupe_magnifier_magnifying_magnifying_glass_search_seo_121397" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4552616-glass-loupe-magnifier-magnifying-magnifying-glass-search-seo_121397.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_4552618_cogwheel_gear_setting_121399" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4552618-cogwheel-gear-setting_121399.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_510b0daee67fbc091f14b9d8ef40aeb6c0d4dc7d_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\510b0daee67fbc091f14b9d8ef40aeb6c0d4dc7d_00.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_74828480_532134077600461_2662441739935023104_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\74828480_532134077600461_2662441739935023104_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_77254160_diseño_de_sociología" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\77254160-diseño-de-sociología.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
