@@ -42,6 +42,9 @@ Partial Class Form1
         Me.BindingNavigatorSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.Base_de_datos_españolBindingNavigatorSaveItem = New System.Windows.Forms.ToolStripButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.Español_BDDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Base_de_datos_españolBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.Base_de_datos_españolBindingNavigator, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -83,7 +86,7 @@ Partial Class Form1
         Me.Base_de_datos_españolBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.Base_de_datos_españolBindingNavigator.Name = "Base_de_datos_españolBindingNavigator"
         Me.Base_de_datos_españolBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.Base_de_datos_españolBindingNavigator.Size = New System.Drawing.Size(450, 25)
+        Me.Base_de_datos_españolBindingNavigator.Size = New System.Drawing.Size(586, 25)
         Me.Base_de_datos_españolBindingNavigator.TabIndex = 0
         Me.Base_de_datos_españolBindingNavigator.Text = "BindingNavigator1"
         '
@@ -183,20 +186,43 @@ Partial Class Form1
         '
         'PictureBox1
         '
-        Me.PictureBox1.BackgroundImage = Global.WindowsApp12.My.Resources.Resources._3A0
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.BackgroundImage = Global.WindowsApp12.My.Resources.Resources.mejores_libros_de_paulo_coelho
         Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox1.Location = New System.Drawing.Point(134, 96)
+        Me.PictureBox1.Location = New System.Drawing.Point(190, 123)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(194, 133)
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
+        '
+        'ProgressBar1
+        '
+        Me.ProgressBar1.Location = New System.Drawing.Point(128, 306)
+        Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.Size = New System.Drawing.Size(320, 23)
+        Me.ProgressBar1.TabIndex = 2
+        '
+        'Timer1
+        '
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Location = New System.Drawing.Point(125, 342)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 3
+        Me.Label1.Text = "Label1"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.WindowsApp12.My.Resources.Resources.fondo_celeste_oscuro_6269
-        Me.ClientSize = New System.Drawing.Size(450, 309)
+        Me.ClientSize = New System.Drawing.Size(586, 416)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Base_de_datos_españolBindingNavigator)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
@@ -231,4 +257,7 @@ Partial Class Form1
     Friend WithEvents BindingNavigatorSeparator2 As ToolStripSeparator
     Friend WithEvents Base_de_datos_españolBindingNavigatorSaveItem As ToolStripButton
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ProgressBar1 As ProgressBar
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents Label1 As Label
 End Class
